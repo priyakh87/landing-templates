@@ -1,0 +1,17 @@
+{
+  "name": "landing-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:coach": "cd coach-landing && vite",
+    "dev:agency": "cd agency-landing && vite",
+    "dev:ecommerce": "cd ecommerce-landing && vite"
+  },
+  "dependencies": {
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.0.8"
+  }
+}
